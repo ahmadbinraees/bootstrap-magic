@@ -1,14 +1,50 @@
-.color-sec{
+.row-grid{
+    display: grid;
+    row-gap: 10px;
+}
+.column-grid{
     display: grid;
     grid-template-columns: 57% auto;
+    column-gap: 10px;
 }
 .solid-text-color{
-    border: 1px solid green;
+    background-color: rgba(255, 160, 122, 0.397);
+    border-radius: 10px;
+    padding: 0 0 0 7px;
 }
 .light-text-color{
-    border: 1px solid blue;
+    background-color: rgba(255, 160, 122, 0.397);
+    border-radius: 10px;
     display: grid;
     grid-template-rows: repeat(7, 1fr);
     align-items: center;
-    justify-content: center;
+    text-align: center;
+}
+.light-text-color h3{
+    padding: 0 0 0 15px;
+    border-radius: 10px;
+}
+.solid-bg-color{
+    background-color: rgba(255, 160, 122, 0.397);
+    border-radius: 10px;
+    display: grid;
+    row-gap: 10px;
+    text-align: center;
+}
+.solid-bg-color h2{
+    padding: 15px 0 0 0;
+    border-radius: 10px;
+    height: 70px;
+}
+.light-bg-color{
+    background-color: rgba(255, 160, 122, 0.397);
+    border-radius: 10px;
+    display: grid;
+    row-gap: 10px;
+    text-align: center;
+}
+.light-bg-color h2{
+    padding: 15px 0 0 0;
+    border-radius: 10px;
+    height: 70px;
 }
