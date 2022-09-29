@@ -1,0 +1,7 @@
+.color-sec{
+    display: grid;
+    grid-template-columns: 60% auto;
+}
+.solid-text-color{
+    border: 1px solid red;
+}
